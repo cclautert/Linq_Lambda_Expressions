@@ -14,7 +14,9 @@ namespace Linq_Lambda_Expressions
             //ITest test = new TestSelect();
             //ITest test = new TestSingle();
             //ITest test = new TestLast();
-            ITest test = new TestTake();
+            //ITest test = new TestTake();
+            //ITest test = new TestSkip();
+            ITest test = new TestJoin();
             test.Test();
 
             Console.ReadLine();

@@ -34,5 +34,6 @@ namespace Linq_Lambda_Expressions.Model
             set { _TotalValue = value; }
         }
 
+        public Customer Customer { get; set; }
     }
 }

@@ -42,7 +42,7 @@ namespace Linq_Lambda_Expressions.DataBase
                     CustomerID = 0;
 
                 objOrder.Id = CustomerID;
-                objOrder.CustomerID = i;
+                objOrder.CustomerID = CustomerID;
                 objOrder.Createdate = DateTime.Now;
                 objOrder.TotalValue = 19 * i;
 

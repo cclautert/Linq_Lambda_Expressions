@@ -34,5 +34,6 @@ namespace Linq_Lambda_Expressions.Model
             set { _SecondAge = value; }
         }
 
+        public IList<Order> Orders { get; set; }
     }
 }
